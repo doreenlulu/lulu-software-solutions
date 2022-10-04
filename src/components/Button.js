@@ -11,16 +11,16 @@ const SIZES =['btn--medium', 'btn--large'];
 //   )
 // }
 
-export const Button = ({children, type, onclick, buttonStyle, buttonSize}) => {
+export const Button = ({children, type, onClick, buttonStyle, buttonSize}) => {
     const checkButtonStyle = STYLES.include(buttonStyle) ? buttonStyle : STYLES[0];
-    const checkButtonSize = SIZES.include(buttonSize) ? buttonSize : SIZES[0]
+    const checkButtonSize = SIZES.include(buttonSize) ? buttonSize : SIZES[0];
 
     return(
         <Link to = 'sign-up' className='btn-mobile'>
             <button className={`btn ${checkButtonSize} ${checkButtonStyle}`}
             onClick={onClick}
             type={type}>
-            {children}
+                {children}
             </button>
         </Link>
     )
