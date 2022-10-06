@@ -1,12 +1,16 @@
-import { Button } from 'bootstrap';
-import React, { useState } from 'react'
+import { Button } from './Button';
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import './Navbar.css';
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
   const closeMobileMenu = () => setClick(false);
   const [button, setButton] = useState(true);
 
+  //Window size
   const showButton = () => {
     if(window.innerWidth <= 960) {
       setButton(false);
@@ -14,21 +18,27 @@ function Navbar() {
       setButton(true);
     }
   };
+// stops the register button from re-appearing when the page is refreshed
+   useEffect(() => {
+    showButton();
+  }, []);
 
+  //navbar editing
   window.addEventListener('resize', showButton);
   return (
     <>
     <nav className='navbar'>
         <div className='navbar-container'>
-            <Link to='/' className='navbar-logo'>
-                Lulu Software Solutions <i className='fab fa-typo3' />
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                Lulu Software Solutions 
+                {/* <img src={process.env.PUBLIC_URL+"images/logo.png"} /> */}
             </Link>
             <div className='menu-icon' onClick ={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
               <li className='nav-item'>
-                <Link to ='/' className='nav-links' onClick={closeMobileMenu}>
+                <Link to ='/home' className='nav-links' onClick={closeMobileMenu}>
                   Home
                 </Link>
               </li>
@@ -44,11 +54,11 @@ function Navbar() {
               </li>
               <li className='nav-item'>
                 <Link to ='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                  Sign Up
+                  Register
                 </Link>
               </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Sign Up</Button>}
+            {button && <Button buttonStyle='btn--outline'>Register</Button>}
         </div>
     </nav>
     </>
