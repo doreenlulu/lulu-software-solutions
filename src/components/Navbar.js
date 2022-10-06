@@ -30,7 +30,7 @@ function Navbar() {
     <nav className='navbar'>
         <div className='navbar-container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                Lulu Software Solutions <i className='fab fa-speakap' />
+                LSS <i className='fab fa-codepen' />
                 {/* <img src={process.env.PUBLIC_URL+"images/logo.png"} /> */}
             </Link>
             <div className='menu-icon' onClick ={handleClick}>

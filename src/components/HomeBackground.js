@@ -8,8 +8,8 @@ function HomeBackground() {
   return (
     <div className='home-background'>
       <video src={video} autoPlay loop muted />
-      <h1>ALL YOUR SOFTWARE SOLUTIONS</h1>
-      <p>Just by One click</p>
+      <h1>LULU SOFTWARE SOLUTIONS</h1>
+      <p>Software solutions just by one click</p>
 
       <div className='background-btns'>
         <Button className='btns' buttonStyle='btn--outline' 
@@ -18,7 +18,7 @@ function HomeBackground() {
 
         <Button className='btns' buttonStyle='btn--primary'
         buttonSize='btn--large' >
-          MEET THE TEAM <i className='fab fa-speakap' />
+          MEET THE TEAM <i className='fab fa-codepen' />
         </Button>
       </div>
 
