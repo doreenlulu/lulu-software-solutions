@@ -29,21 +29,18 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>History</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/'>History</Link>
+            <Link to='/team'>Team</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Team</Link>
+            <Link to='/sign-up'>Contact Us</Link>
+            <Link to='/'>Review</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
           </div>
@@ -66,14 +63,6 @@ function Footer() {
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
             </Link>
             <Link
               class='social-icon-link youtube'

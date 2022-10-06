@@ -15,11 +15,6 @@ function HomeBackground() {
         <Button className='btns' buttonStyle='btn--outline' 
         buttonSize='btn--large'>GET STARTED <i className='fab fa-codepen' />
         </Button>
-
-        <Button className='btns' buttonStyle='btn--primary'
-        buttonSize='btn--large' >
-          MEET THE TEAM <i className='fab fa-codepen' />
-        </Button>
       </div>
 
     </div>
