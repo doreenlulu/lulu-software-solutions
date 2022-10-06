@@ -5,40 +5,18 @@ import './Services.css'
 function Services() {
   return (
     <div className='services'>
-
+      <h1>About Us</h1>
       <div className='service__container'>
         <div className='service__wrapper'>
           <ul className='service__list'>
             <Servicelist
-              src='images/android1.png'
-              text='Create Mobile Applications that fit your desires.'
-              label='Android App Development'
-              path='/services'
-            />
-            <Servicelist
-              src='images/data.png'
-              text='Travel through your data from a data analysts perspective'
-              label='Data Analysis'
-              path='/services'
-            />
-          </ul>
-          <ul className='service__list'>
-            <Servicelist
-              src='images/web.png'
-              text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
-              label='WebApp Development'
-              path='/services'
-            />
-            <Servicelist
-              src='images/cyber.png'
-              text='Kickstart your security experience with the most comprehensive security platform'
-              label='Cyber Security'
-              path='/services'
-            />
-            <Servicelist
-              src='images/database.png'
-              text='We implement, monitor and maintain your SQL databases to ensure optimal performance of the DB servers '
-              label='Database Maintenance'
+              src='images/background.png'
+              text='With the new fast arising era of digitilization, more and more companies are embracing the move.
+              Not all companies have portfolios or good user friendly websites that can enable the user have an easier access to the information about the website. 
+              Luckily, we are here to check that off your list.
+              Lulu Software solutions deals with the creation of Web and Mobile applications.
+              We also deal with Data Analysis, Cyber Security and Database Maintenance. View our services to find the one that suits you.'
+              label='Lulu Software Solutions'
               path='/services'
             />
           </ul>

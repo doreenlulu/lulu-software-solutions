@@ -1,8 +1,12 @@
 .services {
   padding: 4rem;
-  background: #fff;
+  background-color: white;
+  
 }
 
+h1 {
+  text-align: center;
+}
 .service__container {
   display: flex;
   flex-flow: column;
