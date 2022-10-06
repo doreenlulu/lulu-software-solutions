@@ -5,7 +5,7 @@ import './Services.css'
 function Services() {
   return (
     <div className='services'>
-    
+
       <div className='service__container'>
         <div className='service__wrapper'>
           <ul className='service__list'>
@@ -25,7 +25,7 @@ function Services() {
           <ul className='service__list'>
             <Servicelist
               src='images/web.png'
-              text='Set Sail into the world of User-friendly websites that will leave your clients wanting more'
+              text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
               label='WebApp Development'
               path='/services'
             />
@@ -33,13 +33,13 @@ function Services() {
               src='images/cyber.png'
               text='Kickstart your security experience with the most comprehensive security platform'
               label='Cyber Security'
-              path='/team'
+              path='/services'
             />
             <Servicelist
               src='images/database.png'
               text='We implement, monitor and maintain your SQL databases to ensure optimal performance of the DB servers '
               label='Database Maintenance'
-              path='/sign-up'
+              path='/services'
             />
           </ul>
         </div>

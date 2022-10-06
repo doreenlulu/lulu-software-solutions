@@ -3,10 +3,6 @@
   background: #fff;
 }
 
-h1 {
-  text-align: center;
-}
-
 .service__container {
   display: flex;
   flex-flow: column;
@@ -85,6 +81,7 @@ h1 {
   transition: all 0.2s linear;
 }
 
+/* Service image to hover when pointer is on them */
 .service__list__img:hover {
   transform: scale(1.1);
 }

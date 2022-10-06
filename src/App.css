@@ -6,7 +6,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home, .services, .products, .sign-up {
+.home, .service, .team .sign-up {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -14,21 +14,21 @@
   font-size: 3rem;
 }
 
-.services {
+.service {
   background-image: url('/home/doreen/software-solutions/public/images/background.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }
 
-.products {
+.team {
   background-image: url('/home/doreen/software-solutions/public/images/background.png');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }
 
@@ -37,6 +37,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: black;
   font-size: 100px;
 }

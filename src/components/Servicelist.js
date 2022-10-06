@@ -6,7 +6,7 @@ function Servicelist(props) {
      <>
       <li className='service__list'>
         <Link className='service__list__link' to={props.path}>
-
+            
           <figure className='service__list__pic-wrap' data-category={props.label}>
         <img src={props.src} className='service__list__img' alt='Website ' />
           </figure>
