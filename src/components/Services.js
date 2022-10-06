@@ -5,39 +5,39 @@ import './Services.css'
 function Services() {
   return (
     <div className='services'>
-              <h1>Check out these EPIC Destinations!</h1>
+    
       <div className='service__container'>
         <div className='service__wrapper'>
           <ul className='service__list'>
             <Servicelist
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
+              src='images/android1.png'
+              text='Create Mobile Applications that fit your desires.'
               label='Android App Development'
               path='/services'
             />
             <Servicelist
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              src='images/data.png'
+              text='Travel through your data from a data analysts perspective'
               label='Data Analysis'
               path='/services'
             />
           </ul>
           <ul className='service__list'>
             <Servicelist
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              src='images/web.png'
+              text='Set Sail into the world of User-friendly websites that will leave your clients wanting more'
               label='WebApp Development'
               path='/services'
             />
             <Servicelist
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              src='images/cyber.png'
+              text='Kickstart your security experience with the most comprehensive security platform'
               label='Cyber Security'
               path='/team'
             />
             <Servicelist
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              src='images/database.png'
+              text='We implement, monitor and maintain your SQL databases to ensure optimal performance of the DB servers '
               label='Database Maintenance'
               path='/sign-up'
             />

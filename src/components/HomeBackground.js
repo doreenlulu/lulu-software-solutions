@@ -13,7 +13,7 @@ function HomeBackground() {
 
       <div className='background-btns'>
         <Button className='btns' buttonStyle='btn--outline' 
-        buttonSize='btn--large'>GET STARTED <i className='fab fa-gofore' />
+        buttonSize='btn--large'>GET STARTED <i className='fab fa-codepen' />
         </Button>
 
         <Button className='btns' buttonStyle='btn--primary'
