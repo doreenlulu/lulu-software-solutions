@@ -2,27 +2,39 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 
 function SignIn() {
-
-    const[email, setEmail]= useState('');
-    const[passwd, setPasswd]= useState('');
-
     const navigate = useNavigate();
 
-    const handleSubmit= (e) => { 
-        e.preventDefault(); 
-    }
-    
-
     const navigateHome = () => {
-     navigate('/');
+     navigate('/services');
   };
   const navigateToSignIn = () => {
     navigate('/sign-up');
   };
 
+    const[email, setEmail]= useState('');
+    const[passwd, setPasswd]= useState('');
+    const[users, setUser]= useState('');
+
+    console.log(users)
+    
+    useEffect (() => {
+    fetch("http://localhost:8000/users")
+    .then(resp => resp.json())
+    .then (result => setUser(result))
+
+    .catch((err) => {
+   console.log(err.message);
+    });
+}, []);
+    
+ function handleSubmit(users) {
+    setUser(users.map(newUser =>newUser.id === users.id? {...newUser, newId:true} : newUser))
+   } 
+    
     return (
         <>
             <form className='home-background' onSubmit={handleSubmit}>
@@ -40,7 +52,7 @@ function SignIn() {
                         <input value={passwd} onChange={(e) => setPasswd(e.target.value)}type="password" placeholder="********" id="password" name="password" />
 
                     <div className="service__wrapper">
-                    <Link to = '/' >
+                    <Link to = '/services' >
                 <button type="submit" onClick={navigateHome} >Sign Up</button>
                 </Link>
                 </div>

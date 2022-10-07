@@ -1,5 +1,5 @@
 {
-    "logindata": [{
+    "users": [{
         "id": 1,
         "email": "Sat@mail.com",
         "password": "sat"

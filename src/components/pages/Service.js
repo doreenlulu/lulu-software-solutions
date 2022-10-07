@@ -6,8 +6,8 @@ function Service() {
     return (
         <div className='services'>
           <h1>SERVICES OFFERED</h1>
-      <div className='service__container'>
-        <div className='service__wrapper'>
+          <div className='service__container'>
+          <div className='service__wrapper'>
           <ul className='service__list'>
             <Servicelist
               src='images/android1.png'
@@ -50,8 +50,8 @@ function Service() {
               path='/sign-up'
             />
           </ul>
-        
         </div>
+          <h2>Cick on any Service, register and begin your journey</h2>
       </div>
     </div>
     );
