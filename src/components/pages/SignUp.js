@@ -32,7 +32,7 @@ function SignUp() {
 
                     <div className="service__wrapper">
                     <Link to = '/services' >
-                <button type="submit" onClick={navigateHome}>Sign Up</button>
+                <button type="submit" onClick={navigateHome}>Sign In</button>
                 </Link>
                 </div>
                 </div>
