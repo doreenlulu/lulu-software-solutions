@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 function SignUp() {
   const[email, setEmail]= useState('');
@@ -9,6 +10,10 @@ function SignUp() {
         e.preventDefault(); 
     }
 
+    const navigate = useNavigate();
+    const navigateHome = () => {
+     navigate('/services');
+  };
   return (
     <>
      <form className='home-background' onSubmit={handleSubmit}>
@@ -25,7 +30,9 @@ function SignUp() {
                         <input value={passwd} onChange={(e) => setPasswd(e.target.value)}type="password" placeholder="********" id="password" name="password" />
 
                     <div className="service__wrapper">
-                <button type="submit">Sign Up</button>
+                    <Link to = '/services' >
+                <button type="submit" onClick={navigateHome}>Sign Up</button>
+                </Link>
                 </div>
                 </div>
             </form>

@@ -20,12 +20,13 @@ function SignIn() {
      navigate('/');
   };
   const navigateToSignIn = () => {
-    navigate('/signin');
+    navigate('/sign-up');
   };
 
     return (
         <>
             <form className='home-background' onSubmit={handleSubmit}>
+                <h2>Welcome to Lulu Software Solutions</h2>
                 <div className="service__wrapper">
 
                     <div className="service__wrapper">
@@ -45,7 +46,7 @@ function SignIn() {
                 </div>
 
                 <div className="service__wrapper">
-                    <Link to ="/signin" >
+                    <Link to ="/sign-up" >
                 <button onClick={navigateToSignIn}>Already have an Account? Sign in here</button>
                 </Link>
                 </div>
