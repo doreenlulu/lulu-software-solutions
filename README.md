@@ -24,7 +24,7 @@ After unbundling the project:
 
 1. Run `npm install` in your terminal.
 2. Run `npx json-server --watch data/db.json --port 8000`. This will run your backend on port `8000`.
-3. In a new terminal, run `npm start`. This will run your React app on port `8000`.
+3. In a new terminal, run `npm start`. This will run your React app on port `5000`.
 
 Make sure to open [http://localhost:8000/users](http://localhost:8000/users) in
 the browser to verify that your backend is working before you proceed!
