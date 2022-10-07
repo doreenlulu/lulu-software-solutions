@@ -5,7 +5,7 @@ import './Services.css'
 function Services() {
   return (
     <div className='services'>
-      <h1>About Us</h1>
+      <h1>About Us <i className='fab fa-codepen'></i></h1>
       <div className='service__container'>
         <div className='service__wrapper'>
           <ul className='service__list'>
@@ -15,14 +15,13 @@ function Services() {
               Not all companies have portfolios or good user friendly websites that can enable the user have an easier access to the information about the website. 
               Luckily, we are here to check that off your list.
               Lulu Software solutions deals with the creation of Web and Mobile applications.
-              We also deal with Data Analysis, Cyber Security, Database Maintenance and Research on IT. View our services to find the one that suits you.'
+              We also deal with Data Analysis, Cyber Security, Database Maintenance and Research on IT. Click to meet the Team or proceed below to Services'
               label='Lulu Software Solutions'
-              path='/'
+              path='/team'
             />
           </ul>
           
-            <h1>Below are the services</h1>
-            <h1>we offer</h1>
+            <h1>Services Offered <i className='fab fa-codepen'></i></h1>
 
             <ul className='service__list'>
             <Servicelist

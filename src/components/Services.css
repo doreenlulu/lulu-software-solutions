@@ -1,6 +1,7 @@
 .services {
   padding: 4rem;
   background-color: white;
+  /* background-image: url(/home/doreen/software-solutions/public/images/background2.png); */
 }
 
 h1 {
@@ -13,7 +14,6 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-  background-image: url(/home/doreen/software-solutions/public/images/background2.png);
 }
 
 .service__wrapper {

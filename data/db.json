@@ -3,21 +3,25 @@
         "id": 1,
         "name": "Satheesh",
         "email": "Sat@mail.com",
+        "contact": "0705226370",
         "password": "sat"
     }, {
         "id": 2,
         "name": "John",
         "email": "john@mail.com",
+        "contact": "0705226370",
         "password": "john"
     }, {
         "id": 3,
         "name": "Robert",
         "email": "robert@mail.com",
+        "contact": "0705226370",
         "password": "robert"
     }, {
         "id": 4,
         "name": "Mani",
         "email": "mani@mail.com",
+        "contact": "0705226370",
         "password": "mani"
     }]
 }

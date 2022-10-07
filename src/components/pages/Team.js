@@ -23,10 +23,31 @@ export default function Team() {
               path='/team'
             />
             <Servicelist
+              src='images/review2.png'
+              text='Travel through your data from a data analysts perspective'
+              label='Stephanie Shantel -> Cyber Security Analyst'
+              path='/team'
+            />
+            </ul>
+            
+            <ul className='service__list'>
+            <Servicelist
               src='images/review3.png'
               text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
               path='/team'
               label='Dunmus Ochieng -> Web App Developer'
+            />
+            <Servicelist
+              src='images/review3.png'
+              text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
+              path='/team'
+              label='Dunmus Ochieng -> Web App Developer'
+            />
+            <Servicelist
+              src='images/review2.png'
+              text='Travel through your data from a data analysts perspective'
+              label='Stephanie Shantel -> Cyber Security Analyst'
+              path='/team'
             />
           </ul>
           <ul className='service__list'>
