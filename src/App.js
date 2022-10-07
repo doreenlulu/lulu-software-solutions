@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 
@@ -6,11 +6,15 @@ import Home from './components/pages/Home';
 import Team from './components/pages/Team';
 import SignUp from './components/pages/SignUp';
 import Service from './components/pages/Service';
-
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SignIn from './components/pages/SignIn';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
+const [currentForm, setCurrentForm] = useState('login');
+ const toggleForm = (formName) => {
+    setCurrentForm(formName);
+  }
   return (
   <>
     <Router>
@@ -23,6 +27,12 @@ function App() {
     <Route path="/sign-in" element={<SignIn />}></Route>
   </Routes>
     </Router>
+
+    <div className="App">
+      {
+        currentForm === "login" ? <SignIn onFormSwitch={toggleForm} /> : <SignUp onFormSwitch={toggleForm} />
+      }
+    </div>
   </>
   );
 }

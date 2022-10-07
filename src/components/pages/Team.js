@@ -23,50 +23,50 @@ export default function Team() {
               path='/team'
             />
             <Servicelist
-              src='images/review2.png'
+              src='images/review3.png'
               text='Travel through your data from a data analysts perspective'
-              label='Stephanie Shantel -> Cyber Security Analyst'
+              label='Alexander Mackenzie -> Web App Developer'
               path='/team'
             />
             </ul>
             
             <ul className='service__list'>
             <Servicelist
-              src='images/review3.png'
+              src='images/review4.png'
               text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
               path='/team'
-              label='Dunmus Ochieng -> Web App Developer'
+              label='Victoria Jons -> Cyber Security Analyst'
             />
             <Servicelist
-              src='images/review3.png'
+              src='images/review5.png'
               text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
               path='/team'
-              label='Dunmus Ochieng -> Web App Developer'
+              label='Dunmus Peters -> Web App Developer'
             />
             <Servicelist
-              src='images/review2.png'
+              src='images/review6.png'
               text='Travel through your data from a data analysts perspective'
-              label='Stephanie Shantel -> Cyber Security Analyst'
+              label='Abigael Jade -> Cyber Security Analyst'
               path='/team'
             />
           </ul>
           <ul className='service__list'>
             <Servicelist
-              src='images/review4.png'
+              src='images/review7.png'
               text='Create Mobile Applications that fit your desires.'
-              label='Annalisa Lapez'
+              label='Jackson Tyler-> Mobile App Developer'
               path='/team'
             />
             <Servicelist
-              src='images/review5.png'
+              src='images/review8.png'
               text='Travel through your data from a data analysts perspective'
-              label='Data Analysis'
+              label='Hope Kedenge ->Data Analyst'
               path='/team'
             />
             <Servicelist
-              src='images/review6.png'
+              src='images/review9.png'
               text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
-              label='WebApp Development'
+              label='Sali Michaelson-> WebApp Development'
               path='/team'
             />
           </ul>
