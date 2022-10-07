@@ -22,7 +22,8 @@ function SignIn() {
     console.log(users)
     
     useEffect (() => {
-    fetch("http://localhost:8000/users")
+    // fetch("http://localhost:8000/users")
+    fetch("https://software-solutions-backend.herokuapp.com/users")
     .then(resp => resp.json())
     .then (result => setUser(result))
 

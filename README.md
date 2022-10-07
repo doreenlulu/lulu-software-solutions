@@ -1,9 +1,28 @@
 # Lulu Software Solutions
 
+###### By Doreen Musyoki
+
+###### Project Description
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Check out the link above for to learn more about react app.
 
-## Available Scripts
+Lulu Software Solutions offers services on building softwares, maintaining databases and cyber security.
+
+### Live link to the project
+[https://sunny-parfait-65ea65.netlify.app]
+
+## Project Setup
+
+# Installation
+***
+Run the following commands on your terminal to clone the project. 
+
+```
+$ git clone git@github.com:doreenlulu/lulu-software-solutions.git
+$ cd ../path/to/the/file
+$ npm install
+```
 
 In the project directory, you can run:
 
@@ -29,7 +48,8 @@ After unbundling the project:
 Make sure to open [http://localhost:8000/users](http://localhost:8000/users) in
 the browser to verify that your backend is working before you proceed!
 
-The base URL for your backend is: `http://localhost:8000`
+The base URL for your backend is: `https://software-solutions-backend.herokuapp.com/users`
+
 
 ## What You Already Have
 Your Components include `Button`, `Footer`, HomeBackground`, Navbar`,`ServiceList`, and `Services`.
@@ -63,3 +83,31 @@ aspects of the project. But if you want to make your own adjustments, clone the 
 	    }]
 	},
  ]
+ 
+ 
+MIT License
+
+Copyright (c) 2022 Doreen Musyoki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+ ## Author's Information
+
+- School Email - doreen.musyoki@student.moringaschool.com
+- Personal Email - doreenlulu97@gmail.com
