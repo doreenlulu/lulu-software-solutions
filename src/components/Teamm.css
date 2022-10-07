@@ -1,0 +1,26 @@
+.teamm {
+  padding: 4rem;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.team__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+}
+
+.team__list {
+  margin-bottom: 24px;
+}
+
+.team__list {
+  display: flex;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+}
+

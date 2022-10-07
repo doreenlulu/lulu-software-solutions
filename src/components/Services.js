@@ -15,8 +15,52 @@ function Services() {
               Not all companies have portfolios or good user friendly websites that can enable the user have an easier access to the information about the website. 
               Luckily, we are here to check that off your list.
               Lulu Software solutions deals with the creation of Web and Mobile applications.
-              We also deal with Data Analysis, Cyber Security and Database Maintenance. View our services to find the one that suits you.'
+              We also deal with Data Analysis, Cyber Security, Database Maintenance and Research on IT. View our services to find the one that suits you.'
               label='Lulu Software Solutions'
+              path='/'
+            />
+          </ul>
+          
+            <h1>Below are the services</h1>
+            <h1>we offer</h1>
+
+            <ul className='service__list'>
+            <Servicelist
+              src='images/android1.png'
+              text='Android software development is the process by which applications are created for devices running the Android operating system. Click to view this Service'
+              label='Android App Development'
+              path='/services'
+            />
+            <Servicelist
+              src='images/data.png'
+              text='Data analysis is the practice of working with data to glean useful information, which can then be used to make informed decisions. To book this service, click on it'
+              label='Data Analysis'
+              path='/services'
+            />
+            <Servicelist
+              src='images/web.png'
+              text='Web application development is the creation of application programs that reside on remote servers and are delivered to the users device over the Internet. Click to view this Service'
+              label='Web-App Development'
+              path='/services'
+            />
+          </ul>
+          <ul className='service__list'>
+            <Servicelist
+              src='images/cyber.png'
+              text='Cyber security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. Click to view this Service'
+              label='Cyber Security'
+              path='/services'
+            />
+            <Servicelist
+              src='images/database.png'
+              text='Database maintenance is a set of tasks that are all run with the intention to improve your database. Click to view this Service'
+              label='Database Maintenance'
+              path='/services'
+            />
+            <Servicelist
+              src='images/research.png'
+              text='Computer and information research scientists invent new approaches to computing technology and improve the use of existing technology. Click to view this Service'
+              label='Information Research Scientist'
               path='/services'
             />
           </ul>

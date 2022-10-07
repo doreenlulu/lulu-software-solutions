@@ -1,47 +1,55 @@
 import React from 'react'
 import '../../App.css'
-import Teamlist from '../Teamlist';
+import Servicelist from '../Servicelist';
+
 
 export default function Team() {
     return (
-        <div className='teamm'>
+        <div className='services'>
           <h1>THE TEAM</h1>
-      <div className='team__container'>
-        <div className='team__wrapper'>
-          <ul className='team__list'>
-            <Teamlist
-              src='images/android1.png'
-              text='Create Mobile Applications that fit your desires.'
-              label='Android App Development'
+      <div className='service__container'>
+        <div className='service__wrapper'>
+          <ul className='service__list'>
+            <Servicelist
+              src='images/review1.png'
+              text='I have been a mobile app developer for 5 years'
+              label='Caleb KingsBury -> Mobile App Developer'
               path='/team'
             />
-            <Teamlist
-              src='images/data.png'
+            <Servicelist
+              src='images/review2.png'
+              text='Travel through your data from a data analysts perspective'
+              label='Stephanie Shantel -> Cyber Security Analyst'
+              path='/team'
+            />
+            <Servicelist
+              src='images/review3.png'
+              text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
+              path='/team'
+              label='Dunmus Ochieng -> Web App Developer'
+            />
+          </ul>
+          <ul className='service__list'>
+            <Servicelist
+              src='images/review4.png'
+              text='Create Mobile Applications that fit your desires.'
+              label='Annalisa Lapez'
+              path='/team'
+            />
+            <Servicelist
+              src='images/review5.png'
               text='Travel through your data from a data analysts perspective'
               label='Data Analysis'
               path='/team'
             />
-          </ul>
-          <ul className='team__list'>
-            <Teamlist
-              src='images/web.png'
+            <Servicelist
+              src='images/review6.png'
               text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
               label='WebApp Development'
               path='/team'
             />
-            <Teamlist
-              src='images/cyber.png'
-              text='Kickstart your security experience with the most comprehensive security platform'
-              label='Cyber Security'
-              path='/team'
-            />
-            <Teamlist
-              src='images/database.png'
-              text='We implement, monitor and maintain your SQL databases to ensure optimal performance of the DB servers '
-              label='Database Maintenance'
-              path='/team'
-            />
           </ul>
+         
         </div>
       </div>
     </div>

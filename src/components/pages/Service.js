@@ -26,7 +26,7 @@ export default function Service() {
             <Servicelist
               src='images/web.png'
               text='Set sail into the world of User-friendly websites that will leave your clients wanting more'
-              label='WebApp Development'
+              label='Web-App Development'
               path='/sign-up'
             />
             <Servicelist
@@ -35,13 +35,22 @@ export default function Service() {
               label='Cyber Security'
               path='/sign-up'
             />
+          </ul>
+          <ul className='service__list'>
             <Servicelist
               src='images/database.png'
               text='We implement, monitor and maintain your SQL databases to ensure optimal performance of the DB servers '
               label='Database Maintenance'
               path='/sign-up'
             />
+            <Servicelist
+              src='images/research.png'
+              text='We are responsible for designing innovative uses for new and existing technology'
+              label='Information Research Scientist'
+              path='/sign-up'
+            />
           </ul>
+        
         </div>
       </div>
     </div>

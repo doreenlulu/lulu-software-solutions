@@ -13,6 +13,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+  background-image: url(/home/doreen/software-solutions/public/images/background2.png);
 }
 
 .service__wrapper {
@@ -65,7 +66,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #FF69B4;
   box-sizing: border-box;
 }
 
