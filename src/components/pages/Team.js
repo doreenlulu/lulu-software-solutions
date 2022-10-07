@@ -2,8 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Servicelist from '../Servicelist';
 
-
-export default function Team() {
+function Team() {
     return (
         <div className='services'>
           <h1>THE TEAM</h1>
@@ -76,3 +75,4 @@ export default function Team() {
     </div>
     );
 }
+ export default Team;

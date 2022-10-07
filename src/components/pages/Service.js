@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import Servicelist from '../Servicelist';
 
-export default function Service() {
+function Service() {
     return (
         <div className='services'>
           <h1>SERVICES OFFERED</h1>
@@ -56,3 +56,5 @@ export default function Service() {
     </div>
     );
 }
+
+export default Service;

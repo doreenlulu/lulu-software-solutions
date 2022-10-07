@@ -6,11 +6,6 @@ const STYLES = ['btn--primary' , 'btn--outine'];
 
 const SIZES =['btn--medium', 'btn--large'];
 
-// function Button() {
-//   return (
-//     <div>Button</div>
-//   )
-// }
 
 export const Button = ({children, type, onClick, buttonStyle, 
     buttonSize}) => {
