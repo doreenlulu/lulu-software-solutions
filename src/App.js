@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 
@@ -11,10 +11,7 @@ import SignIn from './components/pages/SignIn';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-const [currentForm, setCurrentForm] = useState('login');
- const toggleForm = (formName) => {
-    setCurrentForm(formName);
-  }
+
   return (
   <>
     <Router>
@@ -23,18 +20,12 @@ const [currentForm, setCurrentForm] = useState('login');
     <Route path="/" element={<Home />}></Route>
     <Route path="/services" element={<Service />}></Route>
     <Route path="/team" element={<Team />}></Route>
-    <Route path="/sign-up" element={<SignUp />}></Route>
+    <Route path="/sign-up" element={<SignUp />}></Route> 
     <Route path="/sign-in" element={<SignIn />}></Route>
   </Routes>
     </Router>
-
-    <div className="App">
-      {
-        currentForm === "login" ? <SignIn onFormSwitch={toggleForm} /> : <SignUp onFormSwitch={toggleForm} />
-      }
-    </div>
   </>
-  );
+  )
 }
 
 export default App;

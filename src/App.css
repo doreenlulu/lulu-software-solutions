@@ -50,10 +50,10 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+  background-image: linear-gradient(79deg, #dcc126, #913d59 48%, #8053ae);
 }
 
-.auth-form-container, .login-form, .register-form {
+.auth-form-container, .signin-form, .signup-form {
   display: flex;
   flex-direction: column;
 }
@@ -81,15 +81,15 @@ input {
 
 button {
   border: none;
-  background-color: white;
+  background-color: black;
   padding: 20px;
   border-radius: 10px;
   cursor: pointer;
-  color: #7439db;
+  color: white;
 }
 
 .link-btn {
   background: none;
-  color: white;
+  color: black;
   text-decoration: underline;
 }
